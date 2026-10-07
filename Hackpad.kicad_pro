@@ -524,7 +524,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Production/Gerbers/",
       "specctra_dsn": "",
       "step": "Hackpad.step",
       "vrml": ""
@@ -673,7 +673,7 @@
         "uuid": "41ef4b82-6ec3-48ee-bd54-85a6721bba25"
       }
     ],
-    "used_designators": "#PWR1-4,U1-12,SW1-8",
+    "used_designators": "SW1-8,U1-12,#PWR1-4",
     "variants": []
   },
   "sheets": [
