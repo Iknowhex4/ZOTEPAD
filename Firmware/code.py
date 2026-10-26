@@ -4,14 +4,14 @@ import board
 
 from kmk.kmk_keyboard import KMKKeyboard
 from kmk.keys import KC
-from kmk.scanners import KeysScanner
+from kmk.scanners.keypad import KeysScanner
 # GPIO to key mapping - each line is a new row.
 pins = [
-    board.SW3,  board.SW7,  board.SW11, board.SW15,
-    board.SW2,  board.SW6,  board.SW10, board.SW14,
-    board.SW1,  board.SW5,  board.SW9,  board.SW13,
-    board.SW0,  board.SW4,  board.SW8,  board.SW12,
+    board.D0, board.D1, board.D2,
+    board.D3, board.D4, board.D5
 ]
+from kmk.modules.encoder import EncoderHandler
+encoder_handler = EncoderHandler()
 
 
 # Keyboard implementation class
@@ -23,18 +23,24 @@ class MyKeyboard(KMKKeyboard):
         self.matrix = KeysScanner(
             # require argument:
             pins=pins,
-            value_when_pressed=False,
+            value_when_pressed=False
             # optional arguments with defaults:
-            pull=True,
-            interval=0.02, # Matrix sampling interval in ms
-            debounce_threshold=None, # Number of samples needed to change state, values greater than 1 enable debouncing. Only applicable for CircuitPython >= 9.2.0
-            max_events=64
         )
 keyboard = MyKeyboard()
 
+keyboard.modules = [encoder_handler]
+
+# Regular GPIO Encoder
+encoder_handler.pins = (
+    # regular direction encoder and a button
+    (board.D8, board.D7, board.D9,), # encoder #1 
+    )
+
+encoder_handler.map = [ (( KC.VOLD, KC.VOLU, KC.MUTE),) # Layer 1
+                      ]
 
 keyboard.keymap = [
-    [KC.A,]
+    [KC.RIGHT, KC.X, KC.DOWN, KC.UP, KC.LEFT, KC.Z] 
 ]
 
 if __name__ == '__main__':
