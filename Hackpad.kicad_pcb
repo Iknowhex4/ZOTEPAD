@@ -95,7 +95,7 @@
 		(property "Reference" "U1"
 			(at -0.5 2.54 0)
 			(layer "F.SilkS")
-			(uuid "af53d276-1828-48be-bdae-5b0344fa2de8")
+			(uuid "bf82aad6-f272-4f5b-9d48-50e3e0121277")
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -107,7 +107,7 @@
 			(at 0 5.08 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a907a19a-13fd-47fc-9977-56d5ddafe269")
+			(uuid "337b8a0a-d411-4176-98e7-1f427e19d8b4")
 			(effects
 				(font
 					(size 0.6096 0.6096)
@@ -119,7 +119,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0c55a5c7-fd48-4e33-a8c8-eced40e5c893")
+			(uuid "a252f146-2803-4523-bc03-761341609c33")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -130,7 +130,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "165b50a7-7c2e-47e3-8577-fbe38404bf29")
+			(uuid "fb2f1a67-9a87-4e8e-b07f-26e7f1ea6a7e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4156,7 +4156,7 @@
 	(footprint "ZOTEPAD:silk.com.ca.eu.monster.flowerman"
 		(layer "F.Cu")
 		(uuid "77bd45e3-6ea6-4b98-879b-db5afd1bea64")
-		(at 75.1 86)
+		(at 74.9 89.7)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -6612,88 +6612,88 @@
 		)
 	)
 	(gr_arc
-		(start 27.35 78.05)
-		(mid 28.814466 74.514466)
-		(end 32.35 73.05)
+		(start 27.3125 83.15625)
+		(mid 28.776966 79.620716)
+		(end 32.3125 78.15625)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "d59c2996-884e-4b90-8a32-f4f0c2c504c0")
+		(uuid "c7076a6a-f54f-4fb9-9830-112e87081adc")
 	)
 	(gr_line
-		(start 27.35 138.15)
-		(end 27.35 78.05)
+		(start 27.3125 135.06875)
+		(end 27.3125 83.15625)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "cf2f7d06-e03e-490a-a815-4a27e68d7d76")
+		(uuid "18d9515b-70c1-4aae-add7-f78fbfcce9a7")
 	)
 	(gr_line
-		(start 32.35 73.05)
-		(end 87.7 73.05)
+		(start 32.3125 78.15625)
+		(end 86.60625 78.15625)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "2f92110e-d112-47e9-bf23-3ce3789330d7")
+		(uuid "9a96dd3b-be96-4050-9267-a89caa14d71b")
 	)
 	(gr_arc
-		(start 32.35 143.15)
-		(mid 28.814466 141.685534)
-		(end 27.35 138.15)
+		(start 32.3125 140.06875)
+		(mid 28.776966 138.604284)
+		(end 27.3125 135.06875)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "30d19f63-77a9-48db-acae-dc644fce1371")
+		(uuid "39312c95-96f4-400c-a645-63fa8d464708")
 	)
 	(gr_arc
-		(start 87.7 73.05)
-		(mid 91.235534 74.514466)
-		(end 92.7 78.05)
+		(start 86.60625 78.15625)
+		(mid 90.141784 79.620716)
+		(end 91.60625 83.15625)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "ce238ea1-c2ae-4ba9-82fa-22ae485a85ee")
+		(uuid "25011160-7208-415b-81e1-96ca4d27bf97")
 	)
 	(gr_line
-		(start 87.7 143.15)
-		(end 32.35 143.15)
+		(start 86.60625 140.06875)
+		(end 32.3125 140.06875)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "775fb221-a88e-4d75-bcca-0a033d0a4c13")
+		(uuid "06567aa3-0618-4271-8e53-25c2960a2537")
 	)
 	(gr_line
-		(start 92.7 78.05)
-		(end 92.7 138.15)
+		(start 91.60625 83.15625)
+		(end 91.60625 135.06875)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "4c79a78e-bd06-4f44-8c71-b51f768b8031")
+		(uuid "b8283219-b597-44b4-a453-60551fb47d79")
 	)
 	(gr_arc
-		(start 92.7 138.15)
-		(mid 91.235534 141.685534)
-		(end 87.7 143.15)
+		(start 91.60625 135.06875)
+		(mid 90.141784 138.604284)
+		(end 86.60625 140.06875)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "feb0ecf1-e480-408c-8053-705a3effd871")
+		(uuid "97e32500-3db2-4f66-91dd-bf8bc3b77b50")
 	)
 	(gr_text "ZOATBOAT zoat in \nhis boat\n"
 		(at 63 102.2 0)
