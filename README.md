@@ -16,5 +16,5 @@ This is my Zotepad it was named for Zote The Mighty from the hit indie Game 'Hol
 ![PCB View](image-1.png)
 ![PCB Schematic](image-2.png)
 ![JLCBPC Cart](https://cdn.hackclub.com/01a1ae1c-58d5-73d6-a6e5-2a4ba642f166/image.png)
-This is my CAD stuff:
-[https://cad.onshape.com/documents/b8c557c7cba29d893ec7ee97/w/a27e70a122ce197b2fa20963/e/21f0d5da1cc23e3e0d761768?renderMode=0&uiState=6ac2b3909b3a99bbd460e99a](url)
+This is my CAD link:
+https://cad.onshape.com/documents/b8c557c7cba29d893ec7ee97/w/a27e70a122ce197b2fa20963/e/21f0d5da1cc23e3e0d761768?renderMode=0&uiState=6ac2b3909b3a99bbd460e99a
